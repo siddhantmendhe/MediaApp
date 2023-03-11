@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import { useDispatch,useSelector } from "react-redux";
 import Skeleton from "./Skeleton";
-import { fetchUsers } from "../store";
-import { render } from "@testing-library/react";
+import { fetchUsers,addUser } from "../store";
+import Button from './Button'
+
 
 function UsersList(){
     const dispatch=useDispatch();
@@ -13,9 +14,13 @@ function UsersList(){
     useEffect(()=>{
         dispatch(fetchUsers());
     },[dispatch]);
+
+    const handleUserAdd=()=>{
+        dispatch(addUser());
+    }
     
     if(isLoading){
-        return <Skeleton times={1} className="h-10 w-full"></Skeleton>
+        return <Skeleton times={6} className="h-10 w-full"></Skeleton>
     }
     if(error){
         return <div>Error fetching data...</div>
@@ -29,6 +34,12 @@ function UsersList(){
         </div>
     })
     return <div>
+        <div className="flex flex-row justify-between m-3">
+            <h1 className="m-2 text-xl">Users</h1>
+            <Button onClick={handleUserAdd}>
+                + Add User
+            </Button>
+        </div>
         {renderedUsers}
     </div>
 }

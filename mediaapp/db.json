@@ -1,5 +1,66 @@
 {
-    "users":[{"id":1, "name":"Myra"}],
-    "albums":[],
-    "photos":[]
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Susie Mayer DVM",
+      "id": 2
+    },
+    {
+      "name": "Terrence Bahringer",
+      "id": 3
+    },
+    {
+      "name": "Russell Schuster",
+      "id": 4
+    },
+    {
+      "name": "Agnes Ullrich",
+      "id": 5
+    },
+    {
+      "name": "Carolyn Larson",
+      "id": 6
+    },
+    {
+      "name": "Derek Wuckert",
+      "id": 7
+    },
+    {
+      "name": "Ernesto Fisher",
+      "id": 8
+    },
+    {
+      "name": "Isabel Steuber DVM",
+      "id": 9
+    },
+    {
+      "name": "Dr. Ed Swaniawski I",
+      "id": 10
+    },
+    {
+      "name": "Ellen Kulas",
+      "id": 11
+    },
+    {
+      "name": "Mr. Tracy Kiehn",
+      "id": 12
+    },
+    {
+      "name": "Jay McLaughlin",
+      "id": 13
+    },
+    {
+      "name": "Brandy White",
+      "id": 14
+    },
+    {
+      "name": "Cody Parisian",
+      "id": 15
+    }
+  ],
+  "albums": [],
+  "photos": []
 }
