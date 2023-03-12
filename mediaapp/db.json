@@ -1,64 +1,32 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Myra"
+      "name": "Holly Tillman",
+      "id": 1
     },
     {
-      "name": "Susie Mayer DVM",
+      "name": "Roland Breitenberg",
       "id": 2
     },
     {
-      "name": "Terrence Bahringer",
+      "name": "Patti Schultz",
       "id": 3
     },
     {
-      "name": "Russell Schuster",
+      "name": "Elisa Lind",
       "id": 4
     },
     {
-      "name": "Agnes Ullrich",
+      "name": "Jacqueline Jenkins",
       "id": 5
     },
     {
-      "name": "Carolyn Larson",
+      "name": "Sue Jerde",
       "id": 6
     },
     {
-      "name": "Derek Wuckert",
+      "name": "Miss Rafael Feest",
       "id": 7
-    },
-    {
-      "name": "Ernesto Fisher",
-      "id": 8
-    },
-    {
-      "name": "Isabel Steuber DVM",
-      "id": 9
-    },
-    {
-      "name": "Dr. Ed Swaniawski I",
-      "id": 10
-    },
-    {
-      "name": "Ellen Kulas",
-      "id": 11
-    },
-    {
-      "name": "Mr. Tracy Kiehn",
-      "id": 12
-    },
-    {
-      "name": "Jay McLaughlin",
-      "id": 13
-    },
-    {
-      "name": "Brandy White",
-      "id": 14
-    },
-    {
-      "name": "Cody Parisian",
-      "id": 15
     }
   ],
   "albums": [],
