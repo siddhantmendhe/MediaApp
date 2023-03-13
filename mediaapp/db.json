@@ -1,44 +1,8 @@
 {
   "users": [
     {
-      "name": "Holly Tillman",
-      "id": 1
-    },
-    {
-      "name": "Roland Breitenberg",
-      "id": 2
-    },
-    {
-      "name": "Patti Schultz",
-      "id": 3
-    },
-    {
-      "name": "Elisa Lind",
-      "id": 4
-    },
-    {
-      "name": "Jacqueline Jenkins",
-      "id": 5
-    },
-    {
-      "name": "Sue Jerde",
-      "id": 6
-    },
-    {
-      "name": "Miss Rafael Feest",
-      "id": 7
-    },
-    {
-      "name": "Jane Wyman",
-      "id": 8
-    },
-    {
       "name": "Wesley Simonis",
       "id": 9
-    },
-    {
-      "name": "Ms. Dianne Toy",
-      "id": 10
     }
   ],
   "albums": [],
