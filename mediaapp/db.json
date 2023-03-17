@@ -1,18 +1,24 @@
 {
   "users": [
     {
-      "name": "Wesley Simonis",
-      "id": 9
-    },
-    {
       "name": "Jennifer Leuschke",
       "id": 10
     },
     {
       "name": "Nicolas Hilpert",
       "id": 11
+    },
+    {
+      "name": "Alan Kuhic",
+      "id": 12
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id":15,
+      "title":"Hiking Trip",
+      "userId": 10
+    }
+  ],
   "photos": []
 }
