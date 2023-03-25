@@ -93,6 +93,21 @@
       "userId": 12,
       "title": "Elegant Metal Pizza",
       "id": 30
+    },
+    {
+      "userId": 12,
+      "title": "Refined Frozen Chips",
+      "id": 31
+    },
+    {
+      "userId": 12,
+      "title": "Modern Cotton Chicken",
+      "id": 32
+    },
+    {
+      "userId": 12,
+      "title": "Tasty Rubber Salad",
+      "id": 33
     }
   ],
   "photos": []
