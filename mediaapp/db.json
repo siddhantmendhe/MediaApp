@@ -20,11 +20,6 @@
       "id": 26
     },
     {
-      "userId": 12,
-      "title": "Handcrafted Cotton Chips",
-      "id": 27
-    },
-    {
       "userId": 13,
       "title": "Elegant Rubber Gloves",
       "id": 29
@@ -65,5 +60,16 @@
       "id": 37
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 30,
+      "url": "https://loremflickr.com/150/150/abstract?lock=47502",
+      "id": 1
+    },
+    {
+      "albumId": 30,
+      "url": "https://loremflickr.com/150/150/abstract?lock=95065",
+      "id": 3
+    }
+  ]
 }
