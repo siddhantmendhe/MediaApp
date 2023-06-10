@@ -1,16 +1,16 @@
 {
   "users": [
     {
-      "name": "Miss Kent Hills",
-      "id": 11
-    },
-    {
-      "name": "Valerie Lindgren",
-      "id": 12
-    },
-    {
       "name": "Elaine Jones",
       "id": 13
+    },
+    {
+      "name": "Theodore Reichert",
+      "id": 14
+    },
+    {
+      "name": "Mrs. Kevin Howell",
+      "id": 15
     }
   ],
   "albums": [
@@ -25,31 +25,6 @@
       "id": 29
     },
     {
-      "userId": 11,
-      "title": "Licensed Bronze Fish",
-      "id": 30
-    },
-    {
-      "userId": 12,
-      "title": "Luxurious Steel Bike",
-      "id": 32
-    },
-    {
-      "userId": 11,
-      "title": "Oriental Frozen Cheese",
-      "id": 33
-    },
-    {
-      "userId": 11,
-      "title": "Recycled Frozen Salad",
-      "id": 34
-    },
-    {
-      "userId": 12,
-      "title": "Modern Frozen Towels",
-      "id": 35
-    },
-    {
       "userId": 13,
       "title": "Ergonomic Frozen Chair",
       "id": 36
@@ -60,16 +35,5 @@
       "id": 37
     }
   ],
-  "photos": [
-    {
-      "albumId": 30,
-      "url": "https://loremflickr.com/150/150/abstract?lock=47502",
-      "id": 1
-    },
-    {
-      "albumId": 30,
-      "url": "https://loremflickr.com/150/150/abstract?lock=95065",
-      "id": 3
-    }
-  ]
+  "photos": []
 }
