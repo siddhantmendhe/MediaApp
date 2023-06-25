@@ -5,20 +5,23 @@ import AlbumsListItem from './AlbumsListItem';
 function AlbumsList({ user }) {
   const {data,isError, isFetching}= useFetchAlbumsQuery(user);
   const [addAlbum,results]=useAddAlbumMutation();
-  console.log(data)
 
   const handleAddAlbum=()=>{
     addAlbum(user);
   }
   let content;
   if(isFetching){
+    
     content=<Skeleton className="h-10 w-full" times={3}/>
   }
   else if(isError){
     content=<div>Error loading albums.</div>
   } 
   else{
+  console.log( (Object.keys(data).length.toString()))
+
     content=data.map(album=>{
+
      return <AlbumsListItem key={album.id} album={album}/>
     })
   }
